@@ -5,44 +5,118 @@ body{
   list-style: none;
  }
 h1{
-  font-size: 30px;
+  font-size: 50px;
   color: rgb(95, 91, 91);
 }
 p{
   color: rgb(129, 118, 118);
+  margin-bottom: 20px;
+  width: 80%;
+  font-size: 15px;
 }
 .title{
-  color: cornflowerblue;
+  color: orange;
 }
 .flexible-container{
   display: flex;
-  
+  margin-bottom: 15px;
+  padding: 30px;
  
+}
+.container{
+  background-image: url("images/shapes/top-banner.png");
+  background-repeat: no-repeat;
 }
 .header{
   width: 50%;
   margin-left: 5%;
   padding-left: 2%;
   
+  
+}
+.blog{
+  padding-top:100px;
+  padding-left: 80px;
 }
 .header img{
-  width: 50%;
+  width: 70%;
+  padding-top: 30px;
+  
 }
 .blog-img{
   width: 20%;
+  padding-left: 160px;
   padding-top: 20px;
 }
+.blog-header{
+  padding-left: 200px;
+  padding-top: 20px;
+}
+.blog-header p{
+ width: 60%;
+ text-align: justify;
+ margin-bottom: 50px;
+}
 .btn{
-  background-color: deepskyblue;
+  background-image: linear-gradient(orange,tomato);
   color: #fff;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 15px 30px;
   border-radius: 50px;
   border: none;
 }
 .about-blog{
-  background-image: url("images/shapes/Frame\ 57.jpg");
+  background-image: url("images/shapes/7.png");
   background-repeat: no-repeat;
-  background-position:left;
- 
+  background-size: cover;
 }
+.food-blog{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.developer{
+  width: 50%;
+  margin-right: 18px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px gray;
+  
+}
+.developer img{
+  width: 100%;
+  height: 40vh;
+  border-radius: 20px;
+}
+.page-handle{
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin: 100px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px gray;
+  padding-top: 50px;
+  display: flex;
+}
+.content{
+  width: 30%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+.content h5{
+  font-size: 12px;
+  color: #4c4c4c;
+}
+footer{
+  text-align: center;
+  background-color: black;
+  color: grey;
+  font-size: 15px;
+  padding: 20px;
+}
+
+
+
