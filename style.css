@@ -1,0 +1,48 @@
+body{
+  font-family: 'Gentium Book Plus', serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+ }
+h1{
+  font-size: 30px;
+  color: rgb(95, 91, 91);
+}
+p{
+  color: rgb(129, 118, 118);
+}
+.title{
+  color: cornflowerblue;
+}
+.flexible-container{
+  display: flex;
+  
+ 
+}
+.header{
+  width: 50%;
+  margin-left: 5%;
+  padding-left: 2%;
+  
+}
+.header img{
+  width: 50%;
+}
+.blog-img{
+  width: 20%;
+  padding-top: 20px;
+}
+.btn{
+  background-color: deepskyblue;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: none;
+}
+.about-blog{
+  background-image: url("images/shapes/Frame\ 57.jpg");
+  background-repeat: no-repeat;
+  background-position:left;
+ 
+}
